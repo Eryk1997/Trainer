@@ -1,5 +1,4 @@
-from TrainerClass.Trainer import Trainer
+from LoginWindow import LoginWindow
 
-newTrainer = Trainer("Wojtek Gęsiak", "wojtek@gmail.com", "password", "password")
+LoginWindow
 
-newTrainer.addTrainerDatabase()

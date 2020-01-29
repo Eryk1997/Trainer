@@ -2,17 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4b8de19-90b3-4fc2-9537-09d56fc84bd6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Trainer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Trainer.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LoginWindow/LoginWindow.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Connect/Connect.py" beforeDir="false" afterPath="$PROJECT_DIR$/Connect/Connect.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Main/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Main/Main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Trainer/.idea/workspace.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/TrainerClass/Trainer.py" beforeDir="false" afterPath="$PROJECT_DIR$/TrainerClass/Trainer.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -50,6 +58,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="LoginWindow" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Trainer" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LoginWindow" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LoginWindow/LoginWindow.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Trainer" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -74,6 +103,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.Main" />
+        <item itemvalue="Python.LoginWindow" />
         <item itemvalue="Python.Connect" />
       </list>
     </recent_temporary>
@@ -96,22 +126,42 @@
       <screen x="1366" y="0" width="1360" height="768" />
     </state>
     <state x="1641" y="45" width="800" height="684" key="#Inspections/0.27.1366.741/1366.0.1360.768@1366.0.1360.768" timestamp="1579972490297" />
-    <state width="1337" height="181" key="GridCell.Tab.0.bottom" timestamp="1579972356919">
+    <state x="1829" y="142" width="424" height="491" key="FileChooserDialogImpl" timestamp="1579973777517">
       <screen x="1366" y="0" width="1360" height="768" />
     </state>
-    <state width="1337" height="181" key="GridCell.Tab.0.bottom/0.27.1366.741/1366.0.1360.768@1366.0.1360.768" timestamp="1579972356919" />
-    <state width="1337" height="181" key="GridCell.Tab.0.center" timestamp="1579972356918">
+    <state x="1829" y="142" width="424" height="491" key="FileChooserDialogImpl/0.27.1366.741/1366.0.1360.768@1366.0.1360.768" timestamp="1579973777517" />
+    <state width="1337" height="181" key="GridCell.Tab.0.bottom" timestamp="1580318728110">
       <screen x="1366" y="0" width="1360" height="768" />
     </state>
-    <state width="1337" height="181" key="GridCell.Tab.0.center/0.27.1366.741/1366.0.1360.768@1366.0.1360.768" timestamp="1579972356918" />
-    <state width="1337" height="181" key="GridCell.Tab.0.left" timestamp="1579972356918">
+    <state width="1337" height="181" key="GridCell.Tab.0.bottom/0.27.1366.741/1366.0.1360.768@1366.0.1360.768" timestamp="1580318728110" />
+    <state width="1337" height="181" key="GridCell.Tab.0.center" timestamp="1580318728110">
       <screen x="1366" y="0" width="1360" height="768" />
     </state>
-    <state width="1337" height="181" key="GridCell.Tab.0.left/0.27.1366.741/1366.0.1360.768@1366.0.1360.768" timestamp="1579972356918" />
-    <state width="1337" height="181" key="GridCell.Tab.0.right" timestamp="1579972356919">
+    <state width="1337" height="181" key="GridCell.Tab.0.center/0.27.1366.741/1366.0.1360.768@1366.0.1360.768" timestamp="1580318728110" />
+    <state width="1337" height="181" key="GridCell.Tab.0.left" timestamp="1580318728110">
       <screen x="1366" y="0" width="1360" height="768" />
     </state>
-    <state width="1337" height="181" key="GridCell.Tab.0.right/0.27.1366.741/1366.0.1360.768@1366.0.1360.768" timestamp="1579972356919" />
+    <state width="1337" height="181" key="GridCell.Tab.0.left/0.27.1366.741/1366.0.1360.768@1366.0.1360.768" timestamp="1580318728110" />
+    <state width="1337" height="181" key="GridCell.Tab.0.right" timestamp="1580318728110">
+      <screen x="1366" y="0" width="1360" height="768" />
+    </state>
+    <state width="1337" height="181" key="GridCell.Tab.0.right/0.27.1366.741/1366.0.1360.768@1366.0.1360.768" timestamp="1580318728110" />
+    <state width="1337" height="226" key="GridCell.Tab.1.bottom" timestamp="1579974248285">
+      <screen x="1366" y="0" width="1360" height="768" />
+    </state>
+    <state width="1337" height="226" key="GridCell.Tab.1.bottom/0.27.1366.741/1366.0.1360.768@1366.0.1360.768" timestamp="1579974248285" />
+    <state width="1337" height="226" key="GridCell.Tab.1.center" timestamp="1579974248284">
+      <screen x="1366" y="0" width="1360" height="768" />
+    </state>
+    <state width="1337" height="226" key="GridCell.Tab.1.center/0.27.1366.741/1366.0.1360.768@1366.0.1360.768" timestamp="1579974248284" />
+    <state width="1337" height="226" key="GridCell.Tab.1.left" timestamp="1579974248284">
+      <screen x="1366" y="0" width="1360" height="768" />
+    </state>
+    <state width="1337" height="226" key="GridCell.Tab.1.left/0.27.1366.741/1366.0.1360.768@1366.0.1360.768" timestamp="1579974248284" />
+    <state width="1337" height="226" key="GridCell.Tab.1.right" timestamp="1579974248285">
+      <screen x="1366" y="0" width="1360" height="768" />
+    </state>
+    <state width="1337" height="226" key="GridCell.Tab.1.right/0.27.1366.741/1366.0.1360.768@1366.0.1360.768" timestamp="1579974248285" />
     <state x="1535" y="19" width="1022" height="737" key="SettingsEditor" timestamp="1579972503243">
       <screen x="1366" y="0" width="1360" height="768" />
     </state>

@@ -1,4 +1,5 @@
 from Connect.Connect import mydb
+import bcrypt
 
 
 class Trainer:
@@ -9,25 +10,44 @@ class Trainer:
         self.passwordConfirm = passwordConfirm
 
     # getters
-    def getFullName(self): return self.fullName
+    def getFullName(self):
+        return self.fullName
 
-    def getEmail(self): return self.email
+    def getEmail(self):
+        return self.email
 
-    def getPassword(self): return self.password
+    def getPassword(self):
+        return self.password
 
     # setters
-    def setFullName(self, fulName): self.fullName = fulName
+    def setFullName(self, fulName):
+        self.fullName = fulName
 
-    def setEmail(self, email): self.email = email
+    def setEmail(self, email):
+        self.email = email
 
-    def setPassword(self, password): self.password = password
+    def setPassword(self, password):
+        self.password = password
+
+    def hash_password(self):
+        pom = bytes(self.password, 'utf-8')
+        salt = bcrypt.gensalt()
+        self.password = bcrypt.hashpw(pom, salt)
+
+
+    def verify_password(self, passwordVerify):
+        print(self.password)
+        print(passwordVerify)
+        if bcrypt.checkpw(passwordVerify, self.password):
+            print("good")
+        else:
+            print("bad")
 
     def addTrainerDatabase(self):
         mycursor = mydb.cursor()
 
         sql = "INSERT INTO `Trainers` VALUES (NULL, %s, %s, %s);"
-        val = (self.getFullName(), self.getEmail(), self.getPassword())
-        mycursor.execute(sql, val)
+        mycursor.execute(sql, (self.getFullName(), self.getEmail(), self.getPassword()))
 
         mydb.commit()
         print(mycursor.rowcount, "record inserted.")
